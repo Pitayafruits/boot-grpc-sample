@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: hello-service          # 服务名称
+  main:
+    web-application-type: none   # 不启动tomcat
+
+grpc:
+  server:
+    port: 9000 # rpc服务端口
